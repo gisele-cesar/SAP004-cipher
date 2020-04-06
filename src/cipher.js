@@ -14,6 +14,15 @@ const cipher = {
         mensagemProcessada += String.fromCharCode(mensagemNaoProcessada[i]);
       else
         mensagemProcessada += " ";
+        
+       /* if(textoNaoProcessado.charCodeAt[i] <= 90 && textoNaoProcessado.charCodeAt[i] >= 65)
+        {
+          mensagemProcessada += String.fromCharCode(mensagemNaoProcessada[i]);
+        }        
+        else
+        {
+          mensagemProcessada += textoNaoProcessado.charAt[i]
+        }   */     
     }
     return mensagemProcessada;
   },
