@@ -25,7 +25,7 @@ Ao término da investigação, seus editores poderão decifrar todas as informa�
 ## Como instalar e executar a aplicação
 
 Você poderá acessar o projeto a partir do link `https://github.com/gisele-cesar/SAP004-cipher`
-Para baixar, basta selecionar a opção "Clone or download", copiar o link `https://github.com/gisele-cesar/SAP004-cipher.git`. Acesse o terminal em máquina, crie uma nova pasta onde desejar para salvar os arquivos e em seguida dê o comando de "git clone" para que os arquivos sejam salvos na pasta selecionada.
+Para baixar, basta selecionar a opção "Clone or download", copiar o link `https://github.com/gisele-cesar/SAP004-cipher.git`. Acesse o terminal em sua máquina, crie uma nova pasta para salvar os arquivos e em seguida dê o comando de "git clone" para que os arquivos sejam salvos na pasta selecionada.
 Para rodar o projeto você irá precisar do Node.js (se trata de um interpretador de JavaScript assíncrono com código aberto orientado a eventos), portanto para que seu projeto rode deverá ser feito download através do site `https://nodejs.org/en/download/`.
 
 ### Autoria
