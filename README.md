@@ -9,7 +9,7 @@ Aplicação web onde o usuário poderá cifrar e decrifrar mensagens indicando u
 
 Acesse pelo GitHub Pages:
 
-[ ] `www.segredosdecesar.com`
+`www.segredosdecesar.com`
 
 ## Principais usuários:
 
