@@ -9,23 +9,36 @@
 
 <body>
   <div id="root">
-    <h1>Segredos de Cesar</h1>
+    <h1>SEGREDOS DE CESAR</h1>
   </div>
-  <p>Olá! Aqui você pode cifrar e decifrar suas investigações com segurança!</p>
+  <main class="introducao">
+    <p>Olá! Este site foi desenvolvido para você que atua na área do jornalismo investigativo.</p>
+    <p>Jornalismo investigativo refere-se à prática de reportagem especializada em desvendar mistérios e fatos ocultos
+      do conhecimento público, especialmente crimes e casos de corrupção, que podem eventualmente virar notícia. Sua
+      história é marcada por conflitos políticos e perigosos, e por isso muitas vezes
+      necessita de sigilo no que se refere a suas fontes e informações ainda não apuradas.</p>
+    <p>Aqui você pode cifrar e decifrar suas investigações com segurança!</p>
+    <p>Basta escolher um número (de 1 a 33) de posições mais a frente do alfabeto para que cada letra seja substituída por outra, e
+      para decifrar escolha o mesmo número que usou para cifrar suas mensagens.</p>
+  </main>
 
-  <h3>Quais serão os furos de novidades de hoje?</h3>
-
+  <h4>E então, quais serão os furos e novidades de hoje?</h4>
   <p>Escolha a seguir quantas casas do alfabeto quer andar:</p>
 
-  <input id="deslocamento" type="number" min="1" max="30">
+  <div>
+    <input id="deslocamento" type="number" min="1" max="30" required>
+  </div>
+  <div>
+    <p>Escreva o texto no espaço abaixo e em seguida escolha se quer cifrar ou decifrar.</p>
+    <p>Mas lembre: se for decifrar, use o mesmo número de posições escolhido para cifrar...</p>
+    <textarea name="texto" id="textoNaoProcessado" cols="50" rows="15" required></textarea>
+    <textarea name="texto" id="textoResultado" cols="50" rows="15" disabled></textarea>
+  </div>
   <br>
-  <textarea name="texto" id="textoNaoProcessado" cols="50" rows="15" required></textarea>
-  <textarea name="texto" id="textoResultado" cols="50" rows="15" disabled></textarea>
-  <br>
-  <button id="escolhaCifrar">Cifrar</button>
-  <button id="escolhaDecifrar">Decifrar</button>
-  <br>
-  <button id="voltar">Voltar</button>
+  <div class=>
+    <button id="escolhaCifrar">Cifrar</button>
+    <button id="escolhaDecifrar">Decifrar</button>
+  </div>
 
   <script type="module" src="index.js"> </script>
 </body>
