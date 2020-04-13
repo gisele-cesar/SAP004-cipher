@@ -9,7 +9,7 @@ Aplicação web onde o usuário poderá cifrar e decrifrar mensagens indicando u
 
 Acesse pelo site:
 
-`(https://gisele-cesar.github.io/SAP004-cipher/src/)` ou clique [aqui](https://gisele-cesar.github.io/SAP004-cipher/src/)
+`https://gisele-cesar.github.io/SAP004-cipher/src/` ou clique [aqui](https://gisele-cesar.github.io/SAP004-cipher/src/)
 
 ## Principais usuários:
 
