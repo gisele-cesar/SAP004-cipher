@@ -32,7 +32,3 @@ Para rodar o projeto você irá precisar do Node.js (se trata de um interpretado
 
 Gisele Cesar - @gisele-cesar
 A partir do projeto base da @Laboratoria
-
-### Licença
-
-Projeto distribuído sob a licença CC BY-NC.
